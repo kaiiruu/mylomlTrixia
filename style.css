@@ -1,4 +1,13 @@
 body {
+  background: #Heart {
+    cursor: pointer;
+    will-change: transform;
+    transform-origin: 50% 50%;
+    -webkit-animation: heart 1.8s
+    cubic-bezier(0.17, 0.89, 0.32, 1.49);
+    animation: heart 1.8s
+    cubic-bezier(o.17, 0.89, 0.32, 1.49);
+}
   height: 100vh;
   overflow: hidden;
 }
@@ -701,13 +710,4 @@ body {
   100% {
     transform: translateY(180px);
   }
-  #Heart {
-    cursor: pointer;
-    will-change: transform;
-    transform-origin: 50% 50%;
-    -webkit-animation: heart 1.8s
-    cubic-bezier(0.17, 0.89, 0.32, 1.49);
-    animation: heart 1.8s
-    cubic-bezier(o.17, 0.89, 0.32, 1.49);
-}
 }
